@@ -31,6 +31,7 @@ change what it reads, or delete it in AideMemo at any time.
 ## What you need
 
 - AideMemo on an iPhone or iPad with iOS 27 or iPadOS 27.
+- An AideMemo subscription or its free trial. Without one, AideMemo pauses its assistant connections.
 - Notifications allowed for AideMemo. AideMemo asks when you connect.
 - Your iPhone or iPad on, online, and unlocked at least once since it last restarted. AideMemo does not
   need to be open.
