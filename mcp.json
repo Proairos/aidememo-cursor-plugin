@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "aidememo": {
+      "type": "http",
+      "url": "https://mcp.aidememo.com/mcp",
+      "placement": "server"
+    }
+  }
+}
