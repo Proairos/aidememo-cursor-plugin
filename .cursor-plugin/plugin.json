@@ -1,13 +1,13 @@
 {
   "name": "aidememo",
   "displayName": "AideMemo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "minClientVersions": {
     "cursor": "never",
     "grokbot": "0.49.0",
     "sand": "0.49.0"
   },
-  "description": "Ask Grok Bot about the memories you choose to share from AideMemo on your iPhone or iPad: notes, voice transcripts, calendar events, reminders, photo descriptions and places. You allow the connection in AideMemo, your device answers each request itself, and the connector is read-only.",
+  "description": "Ask Grok Bot about the memories you choose to share from AideMemo on your iPhone or iPad: notes, voice transcripts, calendar events, reminders, photo descriptions and places. You allow the connection in AideMemo, and your device answers each request itself. Grok Bot can add notes only if you allow that too, and it can never change or delete a memory.",
   "author": {
     "name": "Proairos Pte. Ltd.",
     "email": "leto@proairos.com"

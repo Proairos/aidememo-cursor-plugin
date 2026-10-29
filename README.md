@@ -3,22 +3,23 @@
 Ask Grok Bot about the memories you choose to share from [AideMemo](https://www.aidememo.com), the
 personal memory app for iPhone and iPad: notes, voice transcripts, calendar events, reminders, the
 descriptions of your photos, places you went, and your Trakt or Bangumi records if you connect those
-accounts in AideMemo and choose to share them.
+accounts in AideMemo and choose to share them. If you allow it, Grok Bot can add notes too.
 
 This repository is the plugin for Cursor's plugin marketplace. It holds no code that runs: a manifest,
 the address of AideMemo's connector (`https://mcp.aidememo.com/mcp`), a skill that tells Grok Bot how to
-search and cite memories, and the logo.
+search and cite memories and when to add a note, and the logo.
 
 ## How it works
 
 - **You choose what to share:** the kinds of memories, and the period they come from.
 - **Your iPhone or iPad answers.** Grok Bot's request goes to AideMemo's relay, which wakes your device
   with a notification. Your device answers from its own copy of what you shared, and the answer goes back
-  the same way. The relay keeps neither the question nor the answer.
-- **Read-only.** Grok Bot gets two tools: `search`, which finds up to 20 memories by words or dates, and
-  `fetch`, which reads one in full. It cannot change, add or delete anything.
-- **You see every access.** Each search and each read shows a notification, and Recent Access in
-  AideMemo lists them.
+  the same way. The relay keeps no question, answer or note.
+- **Three tools.** `search` finds up to 20 memories by words or dates, and `fetch` reads one in full.
+  `create_note` adds a new note with the text Grok Bot gives it, only once you turn on Add Notes for Grok
+  Bot in AideMemo; it is off until then. Nothing can change or delete a memory you have.
+- **You see every access.** Each search, each read and each note added shows a notification, and Recent
+  Access in AideMemo lists them.
 - Every memory Grok Bot cites comes with a link that opens it in AideMemo.
 
 ## Connecting
